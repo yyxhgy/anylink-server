@@ -1,10 +1,10 @@
 package handler
 
 import (
-	"github.com/bjdgyc/anylink/admin"
-	"github.com/bjdgyc/anylink/base"
-	"github.com/bjdgyc/anylink/dbdata"
-	"github.com/bjdgyc/anylink/sessdata"
+	"github.com/yyxhgy/anylink-server/admin"
+	"github.com/yyxhgy/anylink-server/base"
+	"github.com/yyxhgy/anylink-server/dbdata"
+	"github.com/yyxhgy/anylink-server/sessdata"
 )
 
 func Start() {

@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"runtime"
 
-	"github.com/bjdgyc/anylink/base"
+	"github.com/yyxhgy/anylink-server/base"
 )
 
 type Resp struct {

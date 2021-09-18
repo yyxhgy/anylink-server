@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/bjdgyc/anylink/admin"
+	"github.com/yyxhgy/anylink-server/admin"
 )
 
 func LinkHome(w http.ResponseWriter, r *http.Request) {

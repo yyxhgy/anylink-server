@@ -8,9 +8,9 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/bjdgyc/anylink/base"
-	"github.com/bjdgyc/anylink/pkg/utils"
-	"github.com/bjdgyc/anylink/sessdata"
+	"github.com/yyxhgy/anylink-server/base"
+	"github.com/yyxhgy/anylink-server/pkg/utils"
+	"github.com/yyxhgy/anylink-server/sessdata"
 )
 
 // link vtap

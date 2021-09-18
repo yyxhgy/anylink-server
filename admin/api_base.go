@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/bjdgyc/anylink/base"
-	"github.com/bjdgyc/anylink/pkg/utils"
 	"github.com/gorilla/mux"
+	"github.com/yyxhgy/anylink-server/base"
+	"github.com/yyxhgy/anylink-server/pkg/utils"
 )
 
 // Login 登陆接口

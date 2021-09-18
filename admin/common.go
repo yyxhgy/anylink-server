@@ -5,10 +5,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/bjdgyc/anylink/base"
-	"github.com/bjdgyc/anylink/dbdata"
 	"github.com/golang-jwt/jwt/v4"
 	mail "github.com/xhit/go-simple-mail/v2"
+	"github.com/yyxhgy/anylink-server/base"
+	"github.com/yyxhgy/anylink-server/dbdata"
 	// "github.com/mojocn/base64Captcha"
 )
 

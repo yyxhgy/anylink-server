@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/bjdgyc/anylink/pkg/utils"
+	"github.com/yyxhgy/anylink-server/pkg/utils"
 )
 
 type Online struct {

@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bjdgyc/anylink/base"
 	"github.com/stretchr/testify/assert"
+	"github.com/yyxhgy/anylink-server/base"
 )
 
 func TestJwtData(t *testing.T) {

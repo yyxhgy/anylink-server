@@ -11,8 +11,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/bjdgyc/anylink/base"
-	"github.com/bjdgyc/anylink/dbdata"
+	"github.com/yyxhgy/anylink-server/base"
+	"github.com/yyxhgy/anylink-server/dbdata"
 )
 
 var (

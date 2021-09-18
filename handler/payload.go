@@ -3,10 +3,10 @@ package handler
 import (
 	"encoding/binary"
 
-	"github.com/bjdgyc/anylink/base"
-	"github.com/bjdgyc/anylink/dbdata"
-	"github.com/bjdgyc/anylink/pkg/utils"
-	"github.com/bjdgyc/anylink/sessdata"
+	"github.com/yyxhgy/anylink-server/base"
+	"github.com/yyxhgy/anylink-server/dbdata"
+	"github.com/yyxhgy/anylink-server/pkg/utils"
+	"github.com/yyxhgy/anylink-server/sessdata"
 	"github.com/songgao/water/waterutil"
 )
 

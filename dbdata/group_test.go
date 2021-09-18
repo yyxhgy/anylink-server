@@ -3,8 +3,8 @@ package dbdata
 import (
 	"testing"
 
-	"github.com/bjdgyc/anylink/pkg/utils"
 	"github.com/stretchr/testify/assert"
+	"github.com/yyxhgy/anylink-server/pkg/utils"
 )
 
 func TestGetGroupNames(t *testing.T) {

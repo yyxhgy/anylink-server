@@ -9,9 +9,9 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/bjdgyc/anylink/base"
-	"github.com/bjdgyc/anylink/dbdata"
-	"github.com/bjdgyc/anylink/sessdata"
+	"github.com/yyxhgy/anylink-server/base"
+	"github.com/yyxhgy/anylink-server/dbdata"
+	"github.com/yyxhgy/anylink-server/sessdata"
 )
 
 func LinkAuth(w http.ResponseWriter, r *http.Request) {

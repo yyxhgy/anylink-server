@@ -3,8 +3,8 @@ package handler
 import (
 	"sync"
 
-	"github.com/bjdgyc/anylink/base"
-	"github.com/bjdgyc/anylink/sessdata"
+	"github.com/yyxhgy/anylink-server/base"
+	"github.com/yyxhgy/anylink-server/sessdata"
 )
 
 // 不允许直接修改

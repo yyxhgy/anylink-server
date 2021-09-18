@@ -4,9 +4,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/bjdgyc/anylink/base"
-	"github.com/bjdgyc/anylink/pkg/utils"
-	"github.com/bjdgyc/anylink/sessdata"
+	"github.com/yyxhgy/anylink-server/base"
+	"github.com/yyxhgy/anylink-server/pkg/utils"
+	"github.com/yyxhgy/anylink-server/sessdata"
 )
 
 func LinkDtls(conn net.Conn, cSess *sessdata.ConnSession) {

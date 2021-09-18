@@ -1,10 +1,10 @@
 package dbdata
 
 import (
-	"github.com/bjdgyc/anylink/base"
 	_ "github.com/go-sql-driver/mysql"
 	_ "github.com/lib/pq"
 	_ "github.com/mattn/go-sqlite3"
+	"github.com/yyxhgy/anylink-server/base"
 	"xorm.io/xorm"
 )
 

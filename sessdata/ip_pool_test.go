@@ -7,8 +7,8 @@ import (
 	"path"
 	"testing"
 
-	"github.com/bjdgyc/anylink/base"
-	"github.com/bjdgyc/anylink/dbdata"
+	"github.com/yyxhgy/anylink-server/base"
+	"github.com/yyxhgy/anylink-server/dbdata"
 	"github.com/stretchr/testify/assert"
 )
 

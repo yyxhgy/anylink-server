@@ -5,15 +5,15 @@ import (
 	"net/http"
 	"runtime"
 
-	"github.com/bjdgyc/anylink/base"
-	"github.com/bjdgyc/anylink/dbdata"
-	"github.com/bjdgyc/anylink/pkg/utils"
-	"github.com/bjdgyc/anylink/sessdata"
 	"github.com/shirou/gopsutil/cpu"
 	"github.com/shirou/gopsutil/disk"
 	"github.com/shirou/gopsutil/host"
 	"github.com/shirou/gopsutil/load"
 	"github.com/shirou/gopsutil/mem"
+	"github.com/yyxhgy/anylink-server/base"
+	"github.com/yyxhgy/anylink-server/dbdata"
+	"github.com/yyxhgy/anylink-server/pkg/utils"
+	"github.com/yyxhgy/anylink-server/sessdata"
 )
 
 func SetHome(w http.ResponseWriter, r *http.Request) {

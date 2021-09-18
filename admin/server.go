@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"net/http/pprof"
 
-	"github.com/bjdgyc/anylink/base"
 	"github.com/gorilla/mux"
+	"github.com/yyxhgy/anylink-server/base"
 )
 
 var UiData embed.FS
