@@ -22,8 +22,8 @@ require (
 	github.com/tklauser/go-sysconf v0.3.7 // indirect
 	github.com/xhit/go-simple-mail/v2 v2.10.0
 	github.com/xlzd/gotp v0.0.0-20181030022105-c8557ba2c119
-	golang.org/x/crypto v0.0.0-20210711020723-a769d52b0f97
-	golang.org/x/net v0.0.0-20210805182204-aaa1db679c0d
+	golang.org/x/crypto v0.0.0-20210915214749-c084706c2272
+	golang.org/x/net v0.0.0-20210917221730-978cfadd31cf
 	golang.org/x/time v0.0.0-20210723032227-1f47c861a9ac
 	xorm.io/xorm v1.2.2
 )
