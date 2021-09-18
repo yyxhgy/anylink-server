@@ -1,4 +1,4 @@
-module github.com/bjdgyc/anylink
+module github.com/yyxhgy/anylink-server
 
 go 1.16
 
@@ -28,4 +28,4 @@ require (
 	xorm.io/xorm v1.2.2
 )
 
-replace github.com/pion/dtls/v2 => ../dtls-2.0.9
+replace github.com/pion/dtls/v2 => ./dtls-2.0.9
