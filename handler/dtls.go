@@ -8,17 +8,17 @@ import (
 	"net"
 	"time"
 
+	"github.com/pion/logging"
 	"github.com/yyxhgy/anylink-server/base"
 	"github.com/yyxhgy/anylink-server/sessdata"
-	"github.com/pion/dtls/v2"
-	"github.com/pion/dtls/v2/pkg/crypto/selfsign"
-	"github.com/pion/logging"
+	"github.com/yyxhgy/dtls/v2"
+	"github.com/yyxhgy/dtls/v2/pkg/crypto/selfsign"
 )
 
-// 因本项目对 github.com/pion/dtls 的代码，进行了大量的修改
+// 因本项目对 github.com/yyxhgy/dtls 的代码，进行了大量的修改
 // 且短时间内无法合并到上游项目
 // 所以本项目暂时copy了一份代码
-// 最后,感谢 github.com/pion/dtls 对golang生态做出的贡献
+// 最后,感谢 github.com/yyxhgy/dtls 对golang生态做出的贡献
 
 func startDtls() {
 	if !base.Cfg.ServerDTLS {
